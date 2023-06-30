@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Define estilos gerais para todos os elementos,
+   definindo margem e preenchimento como 0,
+   usando a modelagem de caixa border-box para o dimensionamento
+   e especificando uma família de fontes 'Roboto' */
+   
+body {
+    background-color: #e7e7e7;
+    padding-top: 103px;
+}
+
+/* Define o estilo para o corpo da página,
+   especificando a cor de fundo e o espaçamento superior */
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* Define o estilo para o cabeçalho,
+   fazendo uso de flexbox para alinhar os itens horizontalmente,
+   e especificando a margem inferior */
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+/* Define o estilo para a imagem no cabeçalho,
+   especificando a altura e a margem direita */
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Define o estilo para o título no cabeçalho,
+   especificando o tamanho da fonte e o peso da fonte */
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Define o estilo para o contêiner,
+   especificando a largura máxima, a largura de 100%
+   e centralizando horizontalmente usando margem automática */
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+/* Define o estilo para o formulário,
+   usando flexbox para alinhar os itens horizontalmente com espaço entre eles,
+   e especificando a margem inferior */
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+/* Define o estilo para os campos de entrada no formulário,
+   especificando o tamanho da fonte, a cor de fundo,
+   a borda e o preenchimento */
+
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* Define o estilo para o botão no formulário,
+   especificando a cor de fundo, a cor do texto,
+   o tamanho da fonte, o peso da fonte, a borda e o cursor */
+
+table {
+    width: 100%;
+}
+
+/* Define o estilo para a tabela,
+   especificando a largura de 100% */
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Define o estilo para os cabeçalhos da tabela,
+   especificando a borda inferior, o preenchimento,
+   o tamanho da fonte e o peso da fonte */
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Define o estilo para as células da tabela,*/
+  
+
+table td img {
+    height: 30px;
+}
+
+.resultado{
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.aprovado{
+    background-color: #009432;
+}
+
+.reprovado{
+    background-color: red;
+}
